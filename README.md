@@ -39,7 +39,7 @@ Repeat part 2 but for stop codons.
 Merge the 3 predictions together (Genic/intergenic, starts and stops), in order to get a score for candidate genes. Try to extract gene position in noisy reads from these prediction scores. 
 
 
-### Conclusions : 
+### Conclusion : 
 
 In this project we were able to use a novel approach based on LSTMs to identify the start and stop regions of genes in the E. coli genome. We believe that our approach remains optimizable, since we did not perform an exhaustive search for hyper-parameters as well as embedding types. Further work in this vein should allow these methods to be applied to other genomes. New techniques will have to be developed, however, for discriminating between coding and non-coding regions of genomes.
 
