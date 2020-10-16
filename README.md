@@ -7,7 +7,7 @@ Gene annotation remains a key issue in genetic and genomic studies. The quality 
 
 ### PART 1 Genic/intergenic: 
 
-- Generate random k-mers (here 7-mers) from entire E. coli genome (4 diff strains) simulated noisy reads  
+- Generate random k-mers (here 7-mers) from E. coli (4 diff strains) simulated and full noisy reads  
 - Generate random k-mers (here 7-mers) from whole E. coli genome (again the 4 diff strains) 
 - Label k-mers as genic or intergenic depending on position in genome (taking noise into account for simulated reads)
 - Train and test LSTM neural network on balanced (genic/intergenic) k-mers subsets for both whole genome k-mers and simulated read k-mers
@@ -16,7 +16,7 @@ Gene annotation remains a key issue in genetic and genomic studies. The quality 
 
 ### PART 2 Start codons: 
 
-- Generate random k-mers (here 7-mers) from specific zones (containing potential start codon :ATG,TTG, GTG) in E. coli genome (4 diff strains) simulated noisy reads 
+- Generate random k-mers (here 7-mers) from specific zones (containing potential start codon :ATG,TTG, GTG) in E. coli (4 diff strains) simulated and full noisy reads 
 - Generate random k-mers (here 7-mers) from specific zones (containing potential start codon :ATG,TTG, GTG) in whole E. coli genome (again the 4 diff strains) 
 - Label k-mers as true start or not a start depending on position in genome (taking noise into account for simulated reads)
 - Train and test LSTM neural network on balanced (true start/not a start) k-mers subsets for both whole genome k-mers and simulated read k-mers
