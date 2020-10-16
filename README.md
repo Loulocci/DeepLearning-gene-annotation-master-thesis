@@ -1,2 +1,2 @@
 # DeepLearning-gene-annotation-master-thesis
-Master's thesis files visible files from externs
+Master's thesis public files 
